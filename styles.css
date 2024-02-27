@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(15, 18,22);
+  color: #A6F750;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+h1, h2, h3{
+  text-align: center;
+}
+
+h3{
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+hr{
+  font-weight: 600;
+  background: #E9FBCF;
+  height: 3px;
+  margin-bottom: 12px;
+}
+
+.game{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.game button{
+  width: 100px;
+  height: 100px;
+  margin: 6px;
+  cursor: pointer;
+  font-size: 60px;
+  font-weight: 400;
+  background: #E9FBCF;
+  color: #0F1216;
+
+}
